@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: v-demo
+  host: v-demo
+  disk_quota: 1024M
+  services:
+  - v-demo-cloudantNoSQLDB
+  - v-demo-iotf-service
